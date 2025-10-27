@@ -96,20 +96,19 @@
       }
 
       .overlay-text {
-        position: absolute;
+        position: relative;
+        text-align: center;
+        margin: 3rem auto;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
       }
 
       .overlay-text p {
-        font-style: italic;
         margin: 0;
         font-size: 1.4rem;
       }
-
-
+        
       footer {
         text-align: center;
         padding: 2rem;
@@ -129,11 +128,11 @@
     </header>
 
     <main class="exhibit">
-              <div class="overlay-text">
-          <p><em>The new website for the Charlie Petel Gallery is currently under construction</em></p>
-        </div>
       <div class="image-container">
         <img src="aktuell.jpg" alt="Aktuell" />
+            <div class="overlay-text">
+          <p>The new website for the Charlie Petel Gallery is currently under construction</p>
+        </div>
         <a href="https://instagram.com/charliepetel" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-instagram" style="font-size: 25px; color: black"></i
         ></a>
